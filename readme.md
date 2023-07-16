@@ -1,5 +1,5 @@
 
-# ♖ - Burnsides Lemma : 𝑛 Rooks - ♖
+# ♖ Burnsides Lemma : 𝑛 Rooks ♖
 
 Consider an 𝑛 × 𝑛 chessboard. A rook is a piece that may move any number of squares horizontally or vertically on this board. Hence, a rook threatens another if they are placed on the same row or column. Suppose we are dealing with a rook free-for-all. 
 
