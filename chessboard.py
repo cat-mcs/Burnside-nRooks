@@ -60,7 +60,7 @@ def rotate180(num,r):
         ii.append(term)
         k = k + 1
 
-    return ii
+    return mth.prod(ii)
 
 for n in natural:
 
@@ -72,7 +72,7 @@ for n in natural:
 
     noInvs = involution(n)
     prod90 = rotate90(n,r)
-    prod180 = mth.prod(rotate180(n,r))
+    prod180 = rotate180(n,r)
 
     configCount = 1/8 * (nfact + 2*noInvs + 2*prod90 + prod180)
     print("The number of configurations is: ", configCount)
