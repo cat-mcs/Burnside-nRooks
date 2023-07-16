@@ -9,7 +9,7 @@ Certainly, placing them along the 𝑛 squares of the main diagonal yields a val
 
 ##### how many rook arrangements exist up to symmetry of the chessboard?
 
-This program is able to answer this question for reasonable values of 𝑛. The formula used is based on that presented by Martin Aigner in 'A Course in Enumeration' - Chapter 6 (https://epdf.tips/a-course-in-enumeration.html) which is an application of Burnside's Lemma. This is the integer sequence A000903 (https://oeis.org/A000903).
+This program is able to compute an answer for reasonable values of 𝑛. The formula used is based on that presented by Martin Aigner in 'A Course in Enumeration' - Chapter 6 (https://epdf.tips/a-course-in-enumeration.html) which is an application of Burnside's Lemma. This is the integer sequence A000903 (https://oeis.org/A000903).
 
 ## how to use:
 Enter a board dimension. Rook configuration count from 𝑛 = 5 to 𝑛 = input is printed.
